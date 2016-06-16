@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-api-sample",
+  "name": "json-webservice-nodeJS",
   "version": "1.0.0",
-  "description": "An example of making a Node.js API server",
+  "description": "JSON data reads by web service",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
