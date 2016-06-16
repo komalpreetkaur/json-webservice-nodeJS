@@ -1,13 +1,13 @@
 var frisby = require('frisby');
 frisby.create('Send invalid JSON resquest for error response')
-  .post('http://localhost:3000/listofshows')
+  .post('http://json-web-service.herokuapp.com')
   .expectStatus(400)
   .expectHeaderContains('content-type', 'application/json')
   .expectJSON({error: "Could not decode request: JSON parsing failed"})
 .toss();
 
 frisby.create('Send valid JSON request')
-  .post('http://localhost:3000/listofshows', {
+  .post('http://json-web-service.herokuapp.com', {
     "payload": [
         {
             "country": "UK",
