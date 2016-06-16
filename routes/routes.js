@@ -1,4 +1,7 @@
 var appRouter = function(app) {
+app.get("/", function(req, res) {
+    res.send("JSON web service is running!!");
+});
 
 app.post("/listofshows", function(req, res) {
 	var payloadArr = req.body.payload;
