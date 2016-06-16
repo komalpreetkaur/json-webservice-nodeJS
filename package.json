@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-api-sample",
+  "version": "1.0.0",
+  "description": "An example of making a Node.js API server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "komal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "frisby": "^0.8.5"
+  }
+}
